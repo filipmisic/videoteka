@@ -1,0 +1,148 @@
+table,td,th
+{
+    border: 1px solid black;
+}
+td,th
+{
+    padding:5px;
+}
+.text-hover-green:hover
+{
+    color: green;
+}
+.text-hover-red:hover
+{
+    color: red;
+}
+
+.stars {
+  display: inline-block;
+}
+
+.stars input {
+  display: none;
+}
+
+.paginate
+{
+  width: 40%;
+}
+
+.stars label {
+  float: right;
+  padding: 2px;
+  font-size: 24px;
+  color: #444;
+  transition: all .2s;
+}
+
+.stars label:before {
+  content: '\2605';
+}
+
+.stars input:checked ~ label:before {
+  color: gold;
+  transition: all .25s;
+}
+
+.stars label:hover {
+  transform: scale(1.3);
+}
+.checked {
+  color: orange;
+}
+
+.button-68 {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #27ae60;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 10px 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-68:hover {
+  background-color: #1e8449;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-68:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-68:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
+
+
+.button-delete {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #cf3a3a;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(39, 174, 96, .15) 0 4px 9px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 10px 15px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-delete:hover {
+  background-color:#9f2f2f;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: .35s;
+}
+
+.button-delete:active {
+  transform: translateY(2px);
+  transition-duration: .35s;
+}
+
+.button-delete:hover {
+  box-shadow: rgba(39, 174, 96, .2) 0 6px 12px;
+}
